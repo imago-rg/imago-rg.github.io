@@ -4,11 +4,12 @@
 # Any modification on this file requires building again (via jekyll build or jekyll serve).
 
 # SEO-related fields
-title: Scientific Research and Development Group
+title: Imaging Models and AI Guided Optimization Research
 description: >-
-  Developing novel approaches.
+  The Imaging Models and AI Guided Optimization Research (IMAGO) Research aims at developing
+    novel model-based and AI-driven approaches for computational imaging applications.
 author: Mohamad Jouni
-url: "mhmdjouni.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "imago-rg.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Build settings

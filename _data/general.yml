@@ -1,29 +1,33 @@
 name:
-  long: Scientific Research and Development
-  short: Scientific R&D
-  abbrv: SRD
-  lower: srd
-  full: Scientific Research and Development (SRD)
-  append: Group
-  title: SRD Group
+  long: Imaging Models and AI Guided Optimization
+  short: IMAGO
+  abbrv: IMAGO
+  lower: imago
+  full: Imaging Models and AI Guided Optimization (IMAGO)
+  append: Research
+  title: IMAGO Research
+
+footer_about_us: >-
+  The Imaging Models and AI Guided Optimization Research (IMAGO) Research aims at developing
+    novel model-based and AI-driven approaches for computational imaging applications.
 
 contact:
-  email: srd-group [at] example.com
+  email: mauro.dalla-mura [at] grenoble-inp.fr
   phone: "+00 (XX) AA BB CC DD"
 
 address:
-  building: "Building B"
-  street: "Street S"
-  city: "0000 City C"
-  country: "Country"
-  maps_link: https://www.google.com/maps
+  building: "GIPSA-Lab"
+  street: "11 rue des mathématiques"
+  city: "38400 Saint Martin d'Hères"
+  country: "France"
+  maps_link: https://maps.app.goo.gl/FBrCy3UUoeGah3Cx7
 
 social:
   GitHub:
-    link: https://github.com/mhmdjouni
+    link: https://github.com/imago-rg
     icon: fab fa-fw fa-github
   X (Twitter):
-    link: https://x.com/mhmdjouni
+    link: https://x.com/imago-rg
     icon: fab fa-fw fa-x-twitter
 
 images_dirs:
