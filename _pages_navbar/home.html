@@ -7,20 +7,25 @@ title: Home
 permalink: /
 ---
 
+{%- assign general = site.data.general -%}
+{%- assign proj_name = general.name -%}
+{%- assign affiliations = general.affiliations -%}
+
 <p>
-    Our research group is affiliated with some institutions.
+    The {{ proj_name.full }} {{ proj_name.append }} is affiliated with
+    the <a href="{{- affiliations.uga.link -}}">{{ affiliations.uga.name }}</a>
+    and
+    the <a href="{{- affiliations.sampleAff.link -}}">{{ affiliations.sampleAff.name }}</a>.
 </p>
 <h1>Research</h1>
 <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia semper quam. Praesent non ultrices nulla.
-    Integer velit elit, ornare eget tincidunt ac, pellentesque in ipsum. Donec tristique finibus arcu eu fermentum.
-    Pellentesque convallis in urna ac rutrum. Praesent dignissim lacus sit amet tortor efficitur facilisis.
-    Nunc porta sem nec metus luctus maximus. Nam dui neque, ullamcorper in risus consequat, tempus pulvinar magna.
+    The Imaging Models and AI Guided Optimization Research (IMAGO) Research aims at developing
+    novel model-based and AI-driven approaches for computational imaging applications.
 </p>
 <h1>Research Topics</h1>
 <ul>
     <li>
-        <h2>Topic 1</h2>
+        <h2>Computational Imaging</h2>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia semper quam. Praesent non ultrices nulla.
             Integer velit elit, ornare eget tincidunt ac, pellentesque in ipsum. Donec tristique finibus arcu eu fermentum.
@@ -29,7 +34,7 @@ permalink: /
         </p>
     </li>
     <li>
-        <h2>Topic 2</h2>
+        <h2>Hybrid Model-based and Data-driven Approches</h2>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia semper quam. Praesent non ultrices nulla.
             Integer velit elit, ornare eget tincidunt ac, pellentesque in ipsum. Donec tristique finibus arcu eu fermentum.
@@ -38,7 +43,7 @@ permalink: /
         </p>
     </li>
     <li>
-        <h2>Topic 3</h2>
+        <h2>Applications</h2>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia semper quam. Praesent non ultrices nulla.
             Integer velit elit, ornare eget tincidunt ac, pellentesque in ipsum. Donec tristique finibus arcu eu fermentum.

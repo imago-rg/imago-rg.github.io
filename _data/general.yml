@@ -4,8 +4,16 @@ name:
   abbrv: IMAGO
   lower: imago
   full: Imaging Models and AI Guided Optimization (IMAGO)
-  append: Research
-  title: IMAGO Research
+  append: Research Group
+  title: IMAGO Research Group
+
+affiliations:
+  uga:
+    name: Université Grenoble Alpes
+    link: https://www.univ-grenoble-alpes.fr/
+  sampleAff:
+    name: Sample Institution
+    link: https://example.com
 
 footer_about_us: >-
   The Imaging Models and AI Guided Optimization Research (IMAGO) Research aims at developing
@@ -36,5 +44,5 @@ images_dirs:
   banners: images/banners
   profile_pictures: images/profile_pictures
 
-logo_filename: default.jpg
+logo_filename: imago_logo.png
 banner_filename: default.jpg
